@@ -3,6 +3,7 @@
 - Add google-services.json
 ### Summary
 - TLDR: error `Caused by: java.net.UnknownHostException: Unable to resolve host "firestore.googleapis.com": No address associated with hostname` is encountered
+- Looks like a regression duplicate of 2637
 ### Steps to repro (These are steps from issue 2637, I immediately encountered the issue at step 6 after 4 mins)
 1. Disable LTE data, just keep Wifi connected
 2. Kill app, open app (around 16:23:35)
